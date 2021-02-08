@@ -4,7 +4,7 @@
 - For part 1, the file is `run_etl.py`. To generate the outputs, run `python run_etl.py`. The results should be stored in `output_data/formatted-drug-ndc-0001-of-0001.json`
 - For part 2, to generate the outputs, run `python analyze.py`. The results are stored in parquet format under `output_data/invalid_ndcs.parquet` and `output_data/valid_ndcs.parquet`
 - Note: I deviated from the directions a little bit for 2.1, but please read the justification for this under the implementation section
-- I uploaded the library including the output files. But feel free to delete them if you want to test from scratch. 
+- I uploaded the library without the output files (github didn't like the size =/), but i did include the input files so the program should run without error. 
 ## Documentation:
 Roughly outlining the process I would go through. This would generally include scoping, design, implementation
 ### Scoping:
