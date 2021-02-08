@@ -49,7 +49,7 @@ where fda_dataset.key is null
 group by input.key
 ```
 
-###Implementation
+### Implementation
 - Part 1: Should break some of the functions into helper libraries
 - Part 2:
     - for 2.1, I deivated from the directions slightly because i wanted to showcase pandas and parquet. Instead of just taking a command line input of 'k' as a parameter, i decided to output the entire dataset in parquet format. This isn't particularly useful for exercise, but if we're talking about scaling, then columnar storage formats are much better. Plus pandas is a better analytics tool (though not as good as pyspark) than just trying to analyze using vanilla python
