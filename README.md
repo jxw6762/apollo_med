@@ -1,5 +1,6 @@
 # ApolloMed
 ## Usage
+- [OPTIONAL] run `pip install -r requirements.txt` if you want to have this run locally. Sometimes fastparquet throws an error, but i haven't found it to be a blocker
 - For part 1, the file is `run_etl.py`. To generate the outputs, run `python run_etl.py`. The results should be stored in output_data called `formatted-drug-ndc-0001-of-0001.json`
 - For part 2, to generate the outputs, run `python analyze.py`. The results are stored in parquet format under `invalid_ndcs.parquet` and `valid_ndcs.parquet`
 - Note: I deviated from the directions a little bit for 2.1, but please read the justification for this under the implementation section
