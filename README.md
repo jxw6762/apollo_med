@@ -1,12 +1,12 @@
 # ApolloMed
-##Usage
+## Usage
 - For part 1, the file is `run_etl.py`. To generate the outputs, run `python run_etl.py`. The results should be stored in output_data called `formatted-drug-ndc-0001-of-0001.json`
 - For part 2, to generate the outputs, run `python analyze.py`. The results are stored in parquet format under `invalid_ndcs.parquet` and `valid_ndcs.parquet`
 - Note: I deviated from the directions a little bit for 2.1, but please read the justification for this under the implementation section
 - I uploaded the library including the output files. But feel free to delete them if you want to test from scratch. 
-##Documentation:
+## Documentation:
 Roughly outlining the process I would go through. This would generally include scoping, design, implementation
-###Scoping:
+### Scoping:
 
 - Problems/requirements:
     1. Download a data file from a given link, transform the package ndc key, and store it.
@@ -18,7 +18,7 @@ Roughly outlining the process I would go through. This would generally include s
 
 Questions (see documents folder)
 
-###Design
+### Design
 1. The idea here is to go with an 'ETL' approach.
 - Extract - Download the data
   - Can debate the value of storing raw data here
