@@ -1,0 +1,6 @@
+###### Requirements without Version Specifiers ######`
+pyarrow
+fastparquet
+pandas
+jinja2
+requests
